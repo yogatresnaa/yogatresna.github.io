@@ -1,0 +1,624 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+
+}
+
+/* .top-bar {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: rgb(155, 136, 236);
+    position: fixed;
+    z-index: 1;
+
+} */
+
+/* Akhir dari css reset */
+
+/* Header */
+
+.header {
+    background-color: white;
+
+    width: 100%;
+    height: 100px;
+    position: fixed;
+
+    opacity: 0.9;
+
+}
+
+.header img {
+    width: 50px;
+    margin-left: 190px;
+    margin-top: 20px;
+}
+
+.header h2 {
+    color: rgb(10, 45, 241);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+
+
+}
+
+/* class navigasi */
+
+.navigasi {
+
+    margin-top: 10px;
+    width: 100%;
+    padding: 20px;
+
+
+
+}
+
+.navigasi ul {
+    display: flex;
+    justify-content: start;
+    margin-top: -30px;
+
+
+
+
+}
+
+
+
+
+
+.navigasi ul li a {
+    text-decoration: none;
+    color: rgb(7, 23, 252);
+    padding: 7px;
+    font-size: 20px;
+    font-family: Tahoma;
+
+}
+
+.navigasi ul li a:hover,
+.navigasi ul li a:active {
+
+    background: rgb(59, 8, 245);
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: white;
+
+
+
+}
+
+/* AKhir dari kelas navigasi */
+
+
+
+
+/*Dropdown menu */
+
+.navigasi ul li .submenu {
+    display: none;
+    font-family: Tahoma;
+    font-size: 15px;
+
+
+}
+
+.navigasi ul li:hover .submenu {
+    display: block;
+    box-sizing: border-box;
+    margin-top: 10px;
+    line-height: 40px;
+
+    background-color: lightblue;
+    opacity: 0.8;
+
+}
+
+
+
+ul li:hover .submenu a {
+    color: rgb(239, 240, 245);
+
+
+}
+
+
+
+
+/* Akhir dari dropdown menu */
+
+
+
+
+
+
+/* akhir header */
+
+
+
+
+
+/* .hero {
+    background-image: url(Gambar/cloud.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 900px;
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+
+} */
+
+.hero img {
+    width: 100%;
+
+}
+
+.contain {
+    padding: 0;
+    margin: 0;
+}
+
+.main-contain {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 10px 0 rgb(14, 136, 236);
+
+
+
+}
+
+.contain h2 {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(12, 46, 240);
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.contain .main {
+    width: 360px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.contain .main h6 {
+    font-size: 9px;
+    color: blue;
+}
+
+
+
+.contain .main h2 {
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+    margin-bottom: -30px;
+    text-align: left;
+
+}
+
+.main p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 20px;
+    text-align: justify;
+    box-sizing: border-box;
+    text-indent: 30px;
+
+}
+
+
+
+.contain .main2 {
+
+    width: 360px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 300px;
+
+
+
+
+}
+
+.main2 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    padding: 20px;
+    text-align: justify;
+    box-sizing: border-box;
+    text-indent: 30px;
+
+
+}
+
+
+.contain .gambarku img {
+    width: 90%;
+    margin-top: -100px;
+
+}
+
+
+
+
+.main3 {
+    width: 200px;
+    margin-bottom: 90px;
+    box-sizing: border-box;
+    float: left;
+
+    padding: 5px;
+
+
+
+}
+
+.main3 img {
+    width: 100%;
+}
+
+.main3 h2 {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+    padding: 5px;
+    text-align: left;
+    border-bottom: 0.3px solid grey;
+
+
+}
+
+.main3 li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(63, 21, 250);
+}
+
+.contain .main4 {
+
+    width: 350px;
+    box-sizing: border-box;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+
+
+
+
+}
+
+.main4 .foto img {
+    width: 150px;
+    float: left;
+
+
+
+}
+
+.contain .main4 h2 {
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 60px;
+    color: cadetblue;
+
+}
+
+.contain .main4 p {
+    font-family: inherit;
+    font-size: 15px;
+    text-align: justify;
+    padding-bottom: 20px;
+    margin-top: -20px;
+
+
+
+
+}
+
+
+
+
+.main4 .facbook {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(Gambar/medsos2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-indent: -9999;
+
+}
+
+.main4 .instagram {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(Gambar/medsos3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-indent: -9999;
+
+}
+
+.main4 .twitter {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url(Gambar/medsos1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-indent: -9999;
+
+}
+
+
+.gambarku {
+    width: 80%;
+    margin: 200px auto;
+    border-radius: 30%;
+
+}
+
+.gambarku img {
+    border-radius: 1%;
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+
+    .main-contain main4 fc,
+        {
+        width: 100%;
+        padding: 0;
+        display: block;
+        float: left;
+    }
+}
+
+.box-portfolio {
+    padding: 10px;
+    width: 70%;
+    margin: 20px auto;
+
+}
+
+.box-portfolio h2 {
+
+    margin-left: auto;
+}
+
+.foto {
+    padding: 10px;
+    margin: auto;
+
+}
+
+
+.box-portfolio img {
+    width: 200px;
+    height: 180px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px 0 rgb(14, 136, 236);
+
+
+}
+
+
+/* form */
+
+.container-form {
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+
+
+
+
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 70px;
+}
+
+.footer p {
+
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+
+
+
+}
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+.cf {
+    *zoom: 1;
+}
